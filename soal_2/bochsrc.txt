@@ -1,0 +1,14 @@
+megs: 32
+
+# Arahkan romimage dan vgaromimage ke folder instalasi Bochs 3.0 di Drive D
+# Jika di folder aslinya ada ekstensi .bin, tambahkan .bin di akhirnya:
+romimage: file="D:/Program Files/Bochs-3.0/BIOS-bochs-latest"
+vgaromimage: file="D:/Program Files/Bochs-3.0/VGABIOS-lgpl-latest.bin"
+
+boot: floppy
+floppya: 1_44=floppy.img, status=inserted
+log: bochslog.txt
+mouse: enabled=0
+
+# Menggunakan display GUI bawaan Windows (Sangat Stabil & Ringan)
+display_library: win32
