@@ -8,20 +8,19 @@
 
 ## Reporting
 
-### Soal 1: Pembuatan OS Linux Kustom & Otomatisasi Qemu
+### Soal 1
 
 #### Penjelasan
-Pengerjaan Soal 1 yang melibatkan kustomisasi kernel Linux, pembuatan skrip automasi (`backup.sh`, `iso.sh`, `kernel.sh`, `qemu.sh`), dan kompilasi modul pendukung dilewati (*skip*). Langkah ini diambil untuk menghemat alokasi penggunaan *resource* memori pada perangkat keras lokal (laptop) yang tidak memadai untuk mengangkat beban emulasi penuh via Qemu. Fokus dialihkan sepenuhnya untuk menyelesaikan arsitektur CLI pada Soal 2.
 
 #### Output
-- (Tidak ada / Fitur dilewati)
+- (Tidak ada)
 
 #### Kendala
 Beban komputasi terlalu berat untuk spesifikasi *device* lokal.
 
 ---
 
-### Soal 2: Pengembangan Subsistem Mini OS CLI (Bochs Emulator)
+### Soal 2
 
 #### Kode
 `bochsrc.txt`
@@ -761,19 +760,30 @@ Pembersihan layar dilakukan oleh fungsi `clearScreen()` dengan cara menimpa selu
 #### Output
 
 1. Hasil Eksekusi Kompilasi dan Build Repositori Soal 2 via Makefile:
+    ![Soal2_Img1](./Assets/soal_2/img1.png)
+    ![Soal2_Img2](./Assets/soal_2/img2.png)
 
 2. Pengujian Fitur Validasi Dasar `check`:
+    ![Soal2_Img3](./Assets/soal_2/img3.png)
 
 3. Pengujian Fitur Aritmatika Penjumlahan `add` dan Pengurangan `sub`:
+    ![Soal2_Img4](./Assets/soal_2/img4.png)
 
 4. Pengujian Batas Kritis Sistem pada Operasi Faktorial `fac`:
+    ![Soal2_Img5](./Assets/soal_2/img5.png)
 
 5. Hasil Transisi Perubahan Tema Warna Terminal pada Fitur `season`:
+    ![Soal2_Img6](./Assets/soal_2/img6.png)
 
 6. Visualisasi Tampilan Generator Karakter Segitiga `triangle`:
+    ![Soal2_Img7](./Assets/soal_2/img7.png)
 
 7. Kondisi Menu Bantuan `help` dan Hasil Penyapuan Layar `clear`:
 
+    before:
+    ![Soal2_Img8](./Assets/soal_2/img8.png)
+    after:
+    ![Soal2_Img9](./Assets/soal_2/img9.png)
 
 #### Kendala
 
